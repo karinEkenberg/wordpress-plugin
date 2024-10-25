@@ -1,0 +1,24 @@
+.lsp-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lsp-letter {
+  width: 100px;
+  cursor: none;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #f19ed2;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 40px;
+  background-color: #f7f9f2;
+  transition: background-color 0.3s;
+}
+
+.lsp-letter:hover {
+  background-color: #e8c5e5;
+}
